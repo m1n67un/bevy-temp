@@ -16,7 +16,7 @@ impl Plugin for PeoplePlugin {
         .add_systems(Update, print_names)
         .add_systems(Update, people_with_jobs)
         .add_systems(Update, people_ready_for_hire)
-        .add_systems(Update,     person_does_job);
+        .add_systems(Update, person_does_job);
     }
 }
 
